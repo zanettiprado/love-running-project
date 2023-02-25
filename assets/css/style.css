@@ -15,33 +15,36 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;   
+    color: #252525;
 }
 
-#logo   {
+#logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation and links */
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;    
+    letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 
 }
 
 #menu li {
     float: right;
-    list-style-type: none; 
+    list-style-type: none;
     margin-right: 30px;
 }
 
@@ -67,8 +70,9 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff 
+#cover-text,
+#cover-text h2 {
+    color: #fff
 }
 
 #hero-image {
@@ -82,13 +86,14 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */ 
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(1); 
+    from {
+        transform: scale(1);
     }
-    to{
-        transform: scale(1.1); 
+
+    to {
+        transform: scale(1.1);
     }
 }
 
@@ -97,7 +102,7 @@ h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
     width: 300px;
     height: 200px;
 
@@ -105,10 +110,35 @@ h1, h2 {
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
-    
+
     bottom: 30px;
     right: 150px;
 
     position: absolute;
 
+}
+
+/*Club ethos*/
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: gray;
 }
