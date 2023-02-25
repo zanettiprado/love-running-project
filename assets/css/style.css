@@ -199,7 +199,9 @@ hr {
 }
 /* events times*/
 #times {
-    background: url('/assets/css/images/dublin-city.webp') no-repeat center center;
-    
+    background: url('/assets/css/images/dublin-city.webp') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    overflow: ;
 
 }
