@@ -202,6 +202,22 @@ hr {
     background: url('/assets/css/images/dublin-city.webp') no-repeat center;
     background-size: cover;
     width: 100%;
-    overflow: ;
+    overflow: hidden;
 
+}
+
+#times div {
+    color: white;
+    background-color: rgb(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing:border-box
+}
+
+#times h2 {
+    color: white;
 }
